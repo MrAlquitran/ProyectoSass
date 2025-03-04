@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff5ee;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/moscow.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffefd5;
+  text-align: center;
+  position: relative;
+}
+.hero .hero-title {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  font-weight: bold;
+  color: #cd853f;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+.hero .hero-content {
+  max-width: 800px;
+  background-color: rgba(139, 69, 19, 0.5);
+  padding: 2vh;
+  margin-top: auto;
+}
+.hero .hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.prestige {
+  padding: 60px 20px;
+  background-color: #ffefd5;
+  text-align: center;
+}
+.prestige .prestige-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.prestige .prestige-content h2 {
+  font-size: 2.5rem;
+  color: #cd853f;
+  margin-bottom: 20px;
+}
+.prestige .prestige-content p {
+  font-size: 1.2rem;
+  color: #ffdab9;
+  line-height: 1.6;
+}
+
+.expositor {
+  padding: 60px 20px;
+  background-color: #ffefd5;
+  text-align: center;
+}
+.expositor .expositor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.expositor .expositor-grid .localizacion {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.5);
+}
+.expositor .expositor-grid .localizacion img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.expositor .expositor-grid .localizacion h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffefd5;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.expositor .expositor-grid .localizacion:hover img {
+  transform: scale(1.1);
+}
+.expositor .expositor-grid .localizacion:hover h3 {
+  opacity: 1;
+}
+.expositor .expositor-grid .localizacion.large {
+  grid-column: span 2;
+}
+
+.interseccion {
+  padding: 60px 20px;
+  background-image: url("../images/interseccion.jpeg");
+  text-align: center;
+}
+.interseccion .interseccion-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.interseccion .interseccion-content h2 {
+  font-size: 2.5rem;
+  color: #ffefd5;
+  margin-bottom: 20px;
+}
+.interseccion .interseccion-content p {
+  font-size: 1.2rem;
+  color: #ffefd5;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.interseccion .interseccion-content p:last-child {
+  margin-bottom: 0;
+}
+.interseccion .interseccion-content-text {
+  max-width: 800px;
+  background-color: rgba(139, 69, 19, 0.5);
+  padding: 2vh;
+  margin-top: auto;
+}
+.interseccion .interseccion-content-text p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.profesionales {
+  padding: 60px 20px;
+  background-color: #ffefd5;
+  text-align: center;
+}
+.profesionales .profesionales-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.profesionales .profesionales-content h2 {
+  font-size: 2.5rem;
+  color: #cd853f;
+  margin-bottom: 20px;
+}
+.profesionales .profesionales-content p {
+  font-size: 1.2rem;
+  color: #8b4513;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.profesionales .profesionales-content .profesionales-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.profesionales .profesionales-content .profesionales-grid .profesional {
+  background-color: #8b4513;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.5);
+  text-align: center;
+}
+.profesionales .profesionales-content .profesionales-grid .profesional h3 {
+  font-size: 1.8rem;
+  color: #ffefd5;
+  margin-bottom: 15px;
+}
+.profesionales .profesionales-content .profesionales-grid .profesional p {
+  font-size: 1rem;
+  color: #ffdab9;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.profesionales .profesionales-content .profesionales-grid .profesional .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #cd853f;
+  color: #ffefd5;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.profesionales .profesionales-content .profesionales-grid .profesional .btn:hover {
+  background-color: #ffdab9;
+  color: #cd853f;
+}
+
+.footer {
+  padding: 60px 20px;
+  background-color: #cd853f;
+  color: #ffefd5;
+  text-align: center;
+}
+.footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .footer-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.footer .footer-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+.footer .footer-content .footer-links {
+  margin-top: 30px;
+}
+.footer .footer-content .footer-links a {
+  color: #ffefd5;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.footer .footer-content .footer-links a:hover {
+  color: #ffdab9;
+}
+
+/*# sourceMappingURL=main.css.map */

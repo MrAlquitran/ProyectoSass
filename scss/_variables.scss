@@ -1,0 +1,35 @@
+/// Color principal de la marca.
+/// @type Color
+/// @group colores
+$primary-color: #ffefd5; // PapayaWhip
+
+/// Color secundario de la marca.
+/// @type Color
+/// @group colores
+$secondary-color: #ffdab9; // PeachPuff
+
+/// Color terciario de la marca.
+/// @type Color
+/// @group colores
+$tertiary-color: #cd853f; // Peru
+
+/// Color oscuro de la marca.
+/// @type Color
+/// @group colores
+$dark-color: #8b4513; // SaddleBrown
+
+/// Color principal del background.
+/// @type Color
+/// @group colores
+$background-color: #fff5ee; // Seashell
+
+/// Color principal del background transparente.
+/// @type Color
+/// @group colores
+$background-color-dark: rgba(139,69,19,0.5); // SaddleBrown with transparency
+
+/// Fuente principal de la marca.
+/// @type Fuente
+/// @group fuentes
+$font-stack: 'Montserrat', sans-serif;
+$font-size: 16px;
