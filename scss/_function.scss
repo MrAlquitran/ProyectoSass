@@ -1,0 +1,8 @@
+/// Convierte las unidades px a unidades rem.
+/// 
+/// @param {Number} $px - El valor pixel a convertir.
+/// @param {Number} $base-font-size - La medida base a la que son convertidos dichos pixeles(16px).
+/// @return {String} - El valor rem equivalente.
+@function px-to-rem($px, $base-font-size: 16px) {
+    @return #{$px / $base-font-size}rem;
+}

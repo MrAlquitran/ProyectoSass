@@ -38,7 +38,7 @@ body {
 }
 .hero .hero-content {
   max-width: 800px;
-  background-color: rgba(139, 69, 19, 0.5);
+  background-color: rgba(139, 69, 19, 0.75);
   padding: 2vh;
   margin-top: auto;
 }
@@ -47,23 +47,23 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.prestige {
+.prestigio {
   padding: 60px 20px;
   background-color: #ffefd5;
   text-align: center;
 }
-.prestige .prestige-content {
+.prestigio .prestigio-content {
   max-width: 800px;
   margin: 0 auto;
 }
-.prestige .prestige-content h2 {
+.prestigio .prestigio-content h2 {
   font-size: 2.5rem;
   color: #cd853f;
   margin-bottom: 20px;
 }
-.prestige .prestige-content p {
+.prestigio .prestigio-content p {
   font-size: 1.2rem;
-  color: #ffdab9;
+  color: #8b4513;
   line-height: 1.6;
 }
 
@@ -83,7 +83,7 @@ body {
 .expositor .expositor-grid .localizacion {
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.5);
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.75);
 }
 .expositor .expositor-grid .localizacion img {
   width: 100%;
@@ -99,7 +99,7 @@ body {
   transform: translateX(-50%);
   color: #ffefd5;
   font-size: 1.5rem;
-  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.5);
+  text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.75);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -138,7 +138,7 @@ body {
 }
 .interseccion .interseccion-content-text {
   max-width: 800px;
-  background-color: rgba(139, 69, 19, 0.5);
+  background-color: rgba(139, 69, 19, 0.75);
   padding: 2vh;
   margin-top: auto;
 }
@@ -175,7 +175,7 @@ body {
 .profesionales .profesionales-content .profesionales-grid .profesional {
   background-color: #8b4513;
   padding: 30px;
-  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.5);
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.75);
   text-align: center;
 }
 .profesionales .profesionales-content .profesionales-grid .profesional h3 {
